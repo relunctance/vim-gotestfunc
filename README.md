@@ -5,7 +5,7 @@ the plug be dependent on (vim-go)[https://github.com/fatih/vim-go]
 
 ## INSTALL
 
-Before you install , you should installed (Vundle)[https://github.com/VundleVim/Vundle.vim]
+Before you install , you should installed [Vundle](https://github.com/VundleVim/Vundle.vim)
 
 
 Step1 : modify you .vimrc 
