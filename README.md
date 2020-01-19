@@ -1,5 +1,5 @@
 # vim-gotestfunc
-go test function keyboard shortcut: gt
+go test function keyboard shortcut: `gt` to exec `go test -run '...'`
 
 the plug be dependent on [vim-go](https://github.com/fatih/vim-go)
 
