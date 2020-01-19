@@ -1,11 +1,11 @@
 # vim-gotestfunc
 go test function keyboard shortcut: `gt` to exec `go test -run '...'`
 
-the plug be dependent on [vim-go](https://github.com/fatih/vim-go)
+This plug depends on  [Vundle](https://github.com/VundleVim/Vundle.vim) and [vim-go](https://github.com/fatih/vim-go)
 
 ## INSTALL
 
-Before you install , you should installed [Vundle](https://github.com/VundleVim/Vundle.vim)
+Before you install , you should installed [Vundle](https://github.com/VundleVim/Vundle.vim) and [vim-go](https://github.com/fatih/vim-go)
 
 
 ```vim
