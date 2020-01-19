@@ -7,12 +7,16 @@ the plug be dependent on (vim-go)[https://github.com/fatih/vim-go]
 
 Before you install , you should installed (Vundle)[https://github.com/VundleVim/Vundle.vim]
 
-Bundle
+
+Step1 : modify you .vimrc 
+
+```
+vim ~/.vimrc
+```
+
+step2: add the plug `vim-gotestfunc` into `.vimrc`
 
 ```vim
-" has been install vim-go
-Plugin 'fatih/vim-go'  
-
 Plugin 'relunctance/vim-gotestfunc'
 ```
 
