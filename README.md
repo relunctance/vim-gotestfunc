@@ -44,3 +44,27 @@ vim ~/.vimrc
     
 
 ### Useage Example
+
+`vim demo_test.go`
+
+```go
+package demo
+
+import ( 
+    "testing"
+)
+
+func TestMax(t *testing.T) { 
+    if Max(1, 2) != 1 { 
+        t.Fatalf("should be == 2")
+    } 
+
+}
+
+func Max(a, b int) int { 
+    if a > b { 
+        return a 
+    } 
+    return b 
+}
+```
