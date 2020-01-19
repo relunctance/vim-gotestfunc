@@ -8,17 +8,39 @@ the plug be dependent on [vim-go](https://github.com/fatih/vim-go)
 Before you install , you should installed [Vundle](https://github.com/VundleVim/Vundle.vim)
 
 
+```vim
+Plugin 'relunctance/vim-gotestfunc'
+```
+
+
+
+
+
+## Install Step:
+
 Step1 : modify you .vimrc 
 
 ```
 vim ~/.vimrc
 ```
 
-step2: add the plug `vim-gotestfunc` into `.vimrc`
+Step2: add the plug `vim-gotestfunc` into `.vimrc`
 
 ```vim
 Plugin 'relunctance/vim-gotestfunc'
 ```
 
-## Example:
+Step3: quit `~/.vimrc`
+```
+:wq
+```
 
+Step4: Install Bundle Plug
+
+```
+vim ~/.vimrc
+:BundleInstall
+```
+    
+
+### Useage Example
