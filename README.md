@@ -3,9 +3,15 @@ go test function keyboard shortcut: `gt` to exec `go test -run '...'`
 
 This plug depends on  [Vundle](https://github.com/VundleVim/Vundle.vim) and [vim-go](https://github.com/fatih/vim-go)
 
+
+
+![useage](https://s17.aconvert.com/convert/p3r68-cdx67/gzs1g-kxfb8.gif)
+
+
 ## INSTALL
 
 Before you install , you should installed [Vundle](https://github.com/VundleVim/Vundle.vim) and [vim-go](https://github.com/fatih/vim-go)
+
 
 
 ```vim
@@ -50,21 +56,15 @@ vim ~/.vimrc
 ```go
 package demo
 
-import ( 
-    "testing"
+import (
+	"testing"
 )
 
-func TestMax(t *testing.T) { 
-    if Max(1, 2) != 1 { 
-        t.Fatalf("should be == 2")
-    } 
+func TestMax(t *testing.T) {
+	v := 1
+	if v != 2 {
+		t.Fatalf("should be == 2")
+	}
 
-}
-
-func Max(a, b int) int { 
-    if a > b { 
-        return a 
-    } 
-    return b 
 }
 ```
