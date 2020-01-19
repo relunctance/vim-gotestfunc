@@ -1,7 +1,7 @@
 # vim-gotestfunc
 go test function keyboard shortcut: gt
 
-the plug be dependent on (vim-go)[https://github.com/fatih/vim-go]
+the plug be dependent on [vim-go](https://github.com/fatih/vim-go)
 
 ## INSTALL
 
