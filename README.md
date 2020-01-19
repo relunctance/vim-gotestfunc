@@ -5,7 +5,7 @@ This plug depends on  [Vundle](https://github.com/VundleVim/Vundle.vim) and [vim
 
 
 
-![useage](https://s17.aconvert.com/convert/p3r68-cdx67/gzs1g-kxfb8.gif)
+![useage](_images/604yu-i0mq6.gif)
 
 
 ## INSTALL
